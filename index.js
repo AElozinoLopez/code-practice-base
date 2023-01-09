@@ -18,6 +18,9 @@ const circle = {
     }
 }
 
-for (let key of Object.entries(circle)) {
-    console.log (circle);
-}
+// for (let key of Object.entries(circle)) {
+//     console.log (circle);
+// }
+
+const another = Object.assign({}, circle);
+console.log (another);

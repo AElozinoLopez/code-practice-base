@@ -31,3 +31,5 @@ const car = {
     model: camry,
     year: 2012
 }
+
+const another = {...circle, ...car};

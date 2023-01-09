@@ -22,5 +22,9 @@ const circle = {
 //     console.log (circle);
 // }
 
-const another = Object.assign({}, circle);
+const another = {
+    radius: 4
+}
+
+ another = Object.assign({}, circle);
 console.log (another);

@@ -8,3 +8,5 @@ const circle = {
 for (let key of Object.keys(circle)) {
     console.log (circle[key]);
 }
+
+if ('radius' in circle) console.log ('yes');

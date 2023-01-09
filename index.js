@@ -24,5 +24,10 @@ const circle = {
 
 
 
-const another = Object.assign({}, circle);
-console.log (another);
+// const another = Object.assign({}, circle);
+// console.log (another);
+
+const car = {
+    model: camry,
+    year: 2012
+}

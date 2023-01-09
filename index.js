@@ -28,8 +28,9 @@ const circle = {
 // console.log (another);
 
 const car = {
-    model: camry,
+    model: 'camry',
     year: 2012
 }
 
 const another = {...circle, ...car};
+console.log(another);
